@@ -34,6 +34,8 @@
   :ensure t)
 (use-package shakespeare-mode
   :ensure t)
+(use-package puppet-mode
+  :ensure t)
 
 (ido-mode t)
 (custom-set-variables
@@ -43,10 +45,10 @@
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
    (quote
-    ("98cc377af705c0f2133bb6d340bf0becd08944a588804ee655809da5d8140de6" default)))
+    ("b747fb36e99bc7f497248eafd6e32b45613ee086da74d1d92a8da59d37b9a829" "98cc377af705c0f2133bb6d340bf0becd08944a588804ee655809da5d8140de6" default)))
  '(package-selected-packages
    (quote
-    (shakespeare-mode sharespeare-mode yaml-mode material-theme markdown-mode markdown magit monokai-theme)))
+    (puppet-mode silkworm-theme shakespeare-mode sharespeare-mode yaml-mode material-theme markdown-mode markdown magit monokai-theme)))
  '(safe-local-variable-values
    (quote
     ((haskell-process-use-ghci . t)
