@@ -36,6 +36,8 @@
   :ensure t)
 (use-package puppet-mode
   :ensure t)
+(use-package jinja2-mode
+  :ensure t)
 
 (ido-mode t)
 (custom-set-variables
